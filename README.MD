@@ -11,3 +11,5 @@ with graphql using spring boot graphql starter and store data in mongodb databas
 **Client:** Insomnia
 
 **Server:** Spring boot, GraphQL
+
+**datasource:** mongodb
