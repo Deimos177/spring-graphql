@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
   servlet:
     context-path: /spring-graphql
 spring:
@@ -10,9 +10,5 @@ spring:
       enabled: true
   data:
     mongodb:
-      host: 127.0.0.1
-      port: 27017
-      username: root
-      password: password
+      uri: mongodb+srv://user:password@study.7wuod59.mongodb.net
       database: book
-      authentication-database: admin
